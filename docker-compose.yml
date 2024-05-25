@@ -1,0 +1,7 @@
+﻿services:
+  pjatk_apbd_e5:
+    image: mysql
+    build:
+      context: .
+      dockerfile: Dockerfile
+
